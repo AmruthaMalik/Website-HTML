@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="contact information for my Ramen Shop">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheets" href="css/style.css">
+    <title>Contact Us-TRS</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/Website/">Home</a>
+                </li>
+                <li>
+                    <a href="/#about">About Us<abbr title="Welcome to The Ramen Shop">TRS</abbr></a>
+                </li>
+                <li>
+                    <a href="/#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Shop Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="images/tteokbokki.png" alt="A pictur of a bowl of tteokbokki" title="Roze tteokbokki" width="250">
+            <figcaption>
+                An savory and cheesy bowl of tteokbokki
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section>
+        <h2>Our Contact From</h2>
+        <form action="https://httpbin.org/gets" method="get">
+            <fieldset>
+                <legend>Send us a Message</legend>
+                <p>
+                    <label for="name">name:</label>
+                    <input type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p>
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p>
+                    <label for="Message">Your Message:</label>
+                    <br>
+                    <textarea name="Message" id="Message" placeholder="Type your Message here"></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+        </section>
+        <section>
+            <h2>our location</h2>
+            <address>
+                333 ramen lane temptation road, pipeline, code-560040
+                <br><br>
+                Phone: <a href="tel:+555555555">555-555-555</a>
+            </address>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        Copyright &copy; The Ramen Shop
+    </footer>
+</body>
+</html>

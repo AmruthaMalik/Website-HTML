@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="A web page for my Ramen Shop">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheets" href="css/style.css">
+    <title>Food Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Ramen Shop</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Us<abbr title="Welcome to The Ramen Shop"> TRS</abbr></a>
+                </li>
+                <li>
+                    <a href="#Menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="images/Ramen.png" alt="A pictur of a bowl of Ramen" title="We love Ramen" width="300">
+            <figcaption>
+                An savory bowl of hot and spicy Ramen
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="About">
+            <h2>About</h2><abbr title="The Ramen Shop">TRS</abbr>
+            <p>
+                <abbr title="The Ramen Shop">TRS</abbr> was found on <time datetime="2013">2013</time>. This Shop was made to experience the authentic taste of the<strong>south korean since the rise of their popularity</strong>🍱🍱🍱. We hope to add unique and intersting place in the town.
+            </p>
+            <aside>
+                <h3>Ramen Trivia</h3>
+                <details>
+                    <summary>Did you know when and who made the first Ramen</summary>
+                    <p>
+                        The first instant ramen was invented in 1958 by Momofuku Ando, the founder of Nissin Foods in Japan.He created "Chikin Ramen," which became the world’s first instant noodle product!(Source <cite><a href="https://chatgpt.com/c/68a30f68-9ef0-8325-9983-4422fb12802c">Resource</a> </cite>)
+                    </p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="Menu">
+            <h2>Our Menu</h2>
+            <table border="1">
+                <caption>Our Ramen</caption>
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col"><abbr title="cost">Price</abbr></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">
+                            Egg only
+                        </th>
+                        <td>Medium</td>
+                        <td>1.20$</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>2.20</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="2">
+                            Pork
+                        </th>
+                        <td>Medium</td>
+                        <td>3.40</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>6.40</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">kimchi &amp; fritters 2$</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back to the top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        Copyright &copy; The Ramen Shop
+    </footer>
+</body>
+</html>
