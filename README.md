@@ -35,7 +35,7 @@ Website/
 
 Watch a demo of the website here:  
 
-[![Ramen Shop Demo](/images/Thumbnail.png)](https://drive.google.com/drive/folders/1dhLopJJpENPH51mdBium-_iBWTok3f2X?usp=drive_link)  
+[![Ramen Shop Demo](/images/Thumbnail.png)](https://drive.google.com/drive/folders/1dhLopJJpENPH51mdBium-_iBWTok3f2X)  
 *Click the image to watch the demo video.*
 
 ---
